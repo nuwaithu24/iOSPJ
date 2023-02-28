@@ -1,0 +1,6 @@
+framework module iOSPJ {
+  umbrella header "iOSPJ-umbrella.h"
+
+  export *
+  module * { export * }
+}

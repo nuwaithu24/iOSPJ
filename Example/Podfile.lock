@@ -1,0 +1,16 @@
+PODS:
+  - iOSPJ (0.1.0)
+
+DEPENDENCIES:
+  - iOSPJ (from `../`)
+
+EXTERNAL SOURCES:
+  iOSPJ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSPJ: 7a27ed8bd6cbed45a67bf56ba09c23fe4afc8351
+
+PODFILE CHECKSUM: 4e694875d27a014d607e50acc01d8d566c6d06ce
+
+COCOAPODS: 1.11.3
