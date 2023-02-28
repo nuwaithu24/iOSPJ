@@ -15,6 +15,10 @@ public class Connect{
         
     }
     
+    public func showOther(){
+        print("OTHER")
+    }
+    
     public func showOutput(name:String){
         print(name,"SHOW OUTPUT")
     }
