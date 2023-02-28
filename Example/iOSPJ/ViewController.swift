@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import iOSPJ
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let lib = Connect()
+        lib.showOutput(name: "SUCCESS")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
