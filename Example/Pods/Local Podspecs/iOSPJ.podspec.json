@@ -1,6 +1,6 @@
 {
   "name": "iOSPJ",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Useage Of Project.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nuwaithu24/iOSPJ",
@@ -13,12 +13,18 @@
   },
   "source": {
     "git": "https://github.com/nuwaithu24/iOSPJ.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "5.0",
   "source_files": "iOSPJ/Classes/**/*",
+  "resources": "iOSPJ/Assets/*.storyboard",
+  "resource_bundles": {
+    "iOSPJ": [
+      "iOSPJ/Assets/Storyboard.storyboard"
+    ]
+  },
   "swift_version": "5.0"
 }

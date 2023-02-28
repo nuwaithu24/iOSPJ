@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSPJ'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Useage Of Project.'
 
 # This description is used to generate tags and improve search results.
@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
 
   s.source_files = 'iOSPJ/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'iOSPJ' => ['iOSPJ/Assets/*.png']
-  # }
+  s.resources = 'iOSPJ/Assets/*.storyboard'
+  s.resource_bundles = {
+    'iOSPJ' => ['iOSPJ/Assets/Storyboard.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
